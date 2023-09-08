@@ -5,6 +5,8 @@ for i in range(5):
 print("Array items:")
 for item in my_array:
  print(item)
+
+ 
 //Enter integer 1: 1
 Enter integer 2: 2
 Enter integer 3: 3
