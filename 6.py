@@ -35,14 +35,9 @@ def fibonacciSeries(i):
         return (fibonacciSeries(i - 1) + fibonacciSeries(i - 2))
 
 num = int(input("Enter the number upto which series should be printed: "))
-if num <= 0:
-    print("Please enter a positive number")
+if num <=0:
+    print("Please enter a Positive Number")
 else:
     print("Fibonacci Series:", end=" ")
-    for i in range(num):
-        if i < num - 1:
-            print(fibonacciSeries(i), end=", ")  
-        else:
-            print(fibonacciSeries(i))  
-          //Enter the number upto which series should be printed: 7
-Fibonacci Series: 0, 1, 1, 2, 3, 5, 8//
+for i in range(num):
+    print(fibonacciSeries(i), end=" ")
